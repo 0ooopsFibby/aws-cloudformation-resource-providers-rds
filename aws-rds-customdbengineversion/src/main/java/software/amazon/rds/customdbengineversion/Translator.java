@@ -29,6 +29,7 @@ public class Translator {
                 .engineVersion(model.getEngineVersion())
                 .sourceCustomDbEngineVersionIdentifier(model.getSourceCustomDBEngineVersionIdentifier())
                 .useAwsProvidedLatestImage(model.getUseAwsProvidedLatestImage())
+                .imageId(model.getImageId())
                 .kmsKeyId(model.getKMSKeyId())
                 .manifest(model.getManifest())
                 .tags(Tagging.translateTagsToSdk(tags))

@@ -84,6 +84,10 @@
       "type": "boolean",
       "description": "A value that indicates whether AWS provided latest image is applied automatically to the Custom Engine Version. By default, AWS provided latest image is applied automatically."
     },
+    "ImageId": {
+      "type": "string",
+      "description": "The identifier of Amazon Machine Image (AMI) used for CEV."
+    },
     "Status": {
       "type": "string",
       "description": "The availability status to be assigned to the CEV.",
